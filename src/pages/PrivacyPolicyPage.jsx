@@ -1,6 +1,3 @@
-// PrivacyPolicyPage.jsx
-
-import React from 'react';
 import MetaTags from '../components/MetaTags';
 
 const PrivacyPolicyPage = () => {
@@ -13,9 +10,9 @@ const PrivacyPolicyPage = () => {
 
       <h1 className='text-muted'>Privacy Policy</h1>
       <p className='text-muted'>
-        This Privacy Policy outlines how OurWebsiteName ("we", "our", or "us")
-        collects, uses, and protects your information when you visit our website
-        [YourWebsiteURL].
+        This Privacy Policy outlines how OurWebsiteName (&quot;we&quot;,
+        &quot;our&quot;, or &quot;us&quot;) collects, uses, and protects your
+        information when you visit our website [YourWebsiteURL].
       </p>
 
       <h2 className='text-muted'>Information We Collect</h2>

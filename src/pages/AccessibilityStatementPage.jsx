@@ -1,4 +1,3 @@
-import React from 'react';
 import MetaTags from '../components/MetaTags';
 
 const AccessibilityStatementPage = () => {

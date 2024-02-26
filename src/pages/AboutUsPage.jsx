@@ -1,4 +1,3 @@
-import React from 'react';
 import MetaTags from '../components/MetaTags';
 
 const AboutUsPage = () => {
@@ -12,8 +11,8 @@ const AboutUsPage = () => {
       <p className='text-muted'>
         Welcome to Hungry Chef, your ultimate destination for discovering
         delicious and easy-to-follow recipes from around the globe. Whether
-        you're a seasoned chef or a kitchen novice, our platform is designed to
-        inspire your culinary journey.
+        you&apos;re a seasoned chef or a kitchen novice, our platform is
+        designed to inspire your culinary journey.
       </p>
       <p className='text-muted'>
         Founded in 2024, Hungry Chef has grown into a vibrant community of food
@@ -24,7 +23,7 @@ const AboutUsPage = () => {
       </p>
       <p className='text-muted'>
         From traditional dishes to modern cuisine, Hungry Chef is your partner
-        in the kitchen. Let's cook something amazing together!
+        in the kitchen. Let&apos;s cook something amazing together!
       </p>
     </div>
   );

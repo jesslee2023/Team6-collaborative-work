@@ -1,4 +1,3 @@
-import React from 'react';
 import MetaTags from '../components/MetaTags';
 
 const FAQPage = () => {
@@ -29,7 +28,7 @@ const FAQPage = () => {
         <h2 className='text-muted'>Can I submit my own recipes?</h2>
         <p className='text-muted'>
           Yes, we love to see your culinary creations! Please sign in to your
-          account and visit the "Submit a Recipe" section. Follow the
+          account and visit the &quot;Submit a Recipe&quot; section. Follow the
           instructions to share your recipe with the Hungry Chef community.
         </p>
       </div>

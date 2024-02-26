@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { ThemeContext } from '../hooks/themeContext';
 
 const Footer = () => {
-  let { bgColorClass, textColorClass } = useContext(ThemeContext);
+  let { bgColorClass } = useContext(ThemeContext);
 
   return (
     <footer className={bgColorClass}>
@@ -67,6 +67,7 @@ const Footer = () => {
                   target='_blank'
                   className='nav-link p-0 text-body-secondary'
                   aria-label='Visit our Github page'
+                  rel='noreferrer'
                 >
                   Share on Facebook
                 </a>
@@ -76,6 +77,7 @@ const Footer = () => {
                   href='https://twitter.com/intent/tweet?text=Not%20sure%20what%20to%20cook%3F%20Come%20check%20out%20Hungry%20Chef%20for%20some%20culinary%20inspiration!&url=recipe-alex-test.netlify.app/'
                   target='_blank'
                   className='nav-link p-0 text-body-secondary'
+                  rel='noreferrer'
                 >
                   Share on Twitter
                 </a>
@@ -91,6 +93,7 @@ const Footer = () => {
                   href='https://github.com/shandiya94/Team6-collaborative-work/tree/main'
                   className='nav-link p-0 text-body-secondary'
                   target='_blank'
+                  rel='noreferrer'
                 >
                   Github
                 </a>

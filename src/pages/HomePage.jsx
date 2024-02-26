@@ -27,11 +27,15 @@ const HomePage = () => {
             </h1>
             <p className='lead' style={{ color: '#4c723b' }}>
               Your ultimate destination for easy and delicious recipes from
-              around the globe! Whether you're a seasoned chef or a novice in
-              the kitchen, our app is your go-to resource for satisfying your
+              around the globe! Whether you&apos;re a seasoned chef or a novice
+              in the kitchen, our app is your go-to resource for satisfying your
               culinary cravings.
             </p>
-            <a href='#recipe' className=' px-4 me-md-2' aria-label='Check out our new recipes'>
+            <a
+              href='#recipe'
+              className=' px-4 me-md-2'
+              aria-label='Check out our new recipes'
+            >
               Check out our new recipes!
             </a>
           </div>
