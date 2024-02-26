@@ -74,7 +74,6 @@ const Header = () => {
               aria-expanded='false'
               aria-label='Toggle navigation'
             >
-
               <span className='navbar-toggler-icon'></span>
             </button>
             <div className='nav-item'>
@@ -122,7 +121,7 @@ const Header = () => {
                   </button>
                 </form>
 
-                <div className='d-md-block d-none px-3'>
+                <div className='d-block px-3'>
                   {darkMode ? (
                     <BsBrightnessHigh
                       className='text-success'
