@@ -83,18 +83,18 @@ const Header = () => {
                 <ul className='navbar-nav '>
                   <li>
                     <Link to='/' className='nav-link '>
-                      <button className='btn btn-success'>Home</button>
+                      <button className='btn  btn-dark'>Home</button>
                     </Link>
                   </li>
                   <li>
                     <Link to='/recipe-index' className='nav-link'>
-                      <button className='btn btn-success'>Recipes</button>
+                      <button className='btn  btn-dark'>Recipes</button>
                     </Link>
                   </li>
                 </ul>
                 <button
                   onClick={handleSubscribe}
-                  className=' btn btn-success me-2 '
+                  className=' btn  btn-info me-2 '
                   type='submit'
                 >
                   subscribe
@@ -113,7 +113,7 @@ const Header = () => {
                   />
                   <button
                     onClick={handleSearch}
-                    className='btn btn-success'
+                    className='btn  btn-dark'
                     type='submit'
                   >
                     Search
