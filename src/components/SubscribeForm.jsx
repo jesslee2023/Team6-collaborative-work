@@ -123,7 +123,7 @@ const SubscribeForm = () => {
 
             <Button
               className={`mx-4 ${textColorClass}`}
-              variant='success'
+              variant='info'
               type='submit'
               disabled={isSubmitting}
               style={{ marginTop: '1em' }}
@@ -132,7 +132,7 @@ const SubscribeForm = () => {
             </Button>
             <Button
               className={`mx-4  ${textColorClass}`}
-              variant='success'
+              variant='dark'
               type='close'
               style={{ marginTop: '1em' }}
               onClick={toggleSubscribe}
