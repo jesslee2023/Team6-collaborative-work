@@ -80,6 +80,7 @@ const MainContent = () => {
                       to={`/recipe/${item.idMeal}/${formatRecipeNameForUrl(
                         item.strMeal
                       )}`}
+                      className='text-info'
                     >
                       View Recipe
                     </Link>
@@ -143,7 +144,7 @@ const MainContent = () => {
                   to={`/recipe/${item.idMeal}/${formatRecipeNameForUrl(
                     item.strMeal
                   )}`}
-                  className='text-primary'
+                  className='text-info'
                   style={{ textDecoration: 'underline' }}
                 >
                   Discover More »
@@ -174,7 +175,7 @@ const MainContent = () => {
                   to={`/recipe/${item.idMeal}/${formatRecipeNameForUrl(
                     item.strMeal
                   )}`}
-                  className='text-primary'
+                  className='text-info'
                   style={{ textDecoration: 'underline' }}
                 >
                   View Recipe

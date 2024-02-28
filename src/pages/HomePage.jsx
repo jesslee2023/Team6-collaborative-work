@@ -33,7 +33,7 @@ const HomePage = () => {
             </p>
             <a
               href='#recipe'
-              className=' px-4 me-md-2'
+              className=' px-4 me-md-2 text-info'
               aria-label='Check out our new recipes'
             >
               Check out our new recipes!
