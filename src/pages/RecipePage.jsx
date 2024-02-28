@@ -65,6 +65,7 @@ const RecipePage = () => {
                 objectFit: 'contain',
                 maxHeight: '400px',
               }}
+              loading='lazy'
             />
           </div>
           <div className='col-md-6'>

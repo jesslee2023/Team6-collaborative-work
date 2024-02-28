@@ -60,6 +60,7 @@ const MainContent = () => {
                       maxWidth: '100%',
                       objectFit: 'cover',
                     }}
+                    loading='lazy'
                   />
                   <div
                     className='ms-5 d-none d-lg-block'
@@ -132,6 +133,7 @@ const MainContent = () => {
                 width='200'
                 height='200'
                 alt={item.strMeal}
+                loading='lazy'
               />
               <h2 className='fw-normal my-3'>{item.strMeal}</h2>
               <p className='my-3 text-muted'>
@@ -190,6 +192,7 @@ const MainContent = () => {
                 height='500'
                 alt={item.strMeal}
                 style={{ objectFit: 'cover' }}
+                loading='lazy'
               />
             </div>
           </div>
