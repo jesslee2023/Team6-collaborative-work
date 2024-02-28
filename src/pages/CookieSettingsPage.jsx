@@ -70,7 +70,7 @@ const CookieSettingsPage = () => {
         </button>
         <button
           onClick={() => handleSave(false)}
-          className='btn btn-danger'
+          className='btn btn-dark'
           aria-label='Disable Cookies'
         >
           Disable Cookies
