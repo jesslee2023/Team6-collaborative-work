@@ -69,7 +69,7 @@ const Footer = () => {
                   aria-label='Share on Facebook'
                   rel='noreferrer'
                 >
-                  <i className='fab fa-facebook-square'></i> Share on Facebook
+                  Share on Facebook
                 </a>
               </li>
               <li>
@@ -80,7 +80,7 @@ const Footer = () => {
                   aria-label='Share on Twitter'
                   rel='noreferrer'
                 >
-                  <i className='fab fa-twitter'></i> Share on Twitter
+                  Share on Twitter
                 </a>
               </li>
             </ul>

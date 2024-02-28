@@ -19,7 +19,7 @@ const HomePage = () => {
               alt='Welcome to Hungry Chef - Delicious Food'
               width={700}
               height={500}
-              loading='eager'
+              loading='lazy'
             />
           </div>
           <div className='col-lg-6'>
